@@ -1,0 +1,7 @@
+logging:
+  level:
+    info: INFO
+
+database: app
+selam: evet
+selamdegil: hayır
