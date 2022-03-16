@@ -5,3 +5,6 @@ logging:
 database: app
 selam: evet
 selamdegil: hayır
+spring:
+  datasource:
+    password: mete

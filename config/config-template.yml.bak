@@ -4,5 +4,4 @@ logging:
 
 database: app
 selam: evet
-password: {cipher}eede2b971b59eb41e176fcdba8a822ef8bd7ee12f89d9b0802f50463f2b599ec
 selamdegil: hayır
