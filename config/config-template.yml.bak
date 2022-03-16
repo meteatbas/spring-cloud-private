@@ -7,4 +7,4 @@ selam: evet
 selamdegil: hayır
 spring:
   datasource:
-    password: mete
+    password: '{cipher}f4c61447796ac35495c611e2d5cd6516f9cc3b870891c5909068ef098b4e932a'
