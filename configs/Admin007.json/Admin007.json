@@ -1,1 +1,1 @@
-{"managedCapturerClusterId":{"configValueCount":"SINGLE","configValueType":"STRING","valueAsJson":"","encrypted":false}}
+{"voiceAdminBaseUri":{"configValueCount":"SINGLE","configValueType":"STRING","valueAsJson":"/","encrypted":false},"managedCapturerClusterId":{"configValueCount":"SINGLE","configValueType":"STRING","valueAsJson":"","encrypted":false},"maxRestCallDurationInMinutes":{"configValueCount":"SINGLE","configValueType":"LONG","valueAsJson":"","encrypted":false}}
