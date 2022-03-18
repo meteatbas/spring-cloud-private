@@ -1,0 +1,10 @@
+logging:
+  level:
+    info: INFO
+
+database: mssql
+selam: evet
+selamdegil: evet
+spring:
+  datasource:
+    password: secretPassword
