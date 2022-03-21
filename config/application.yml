@@ -1,0 +1,8 @@
+logging:
+    file: degisiklikGeldimi
+database: app
+selam: evet
+selamdegil: hayır
+spring:
+  datasource:
+    password: '{cipher}AQAEBwgTNFTL+lHld/PZPSW3rEfTynp1SnrQI5yoGzuLiWMkSDPj81gL+hsZJLuVozuqU6m4/Ng5A9tu8vVIrTPN53SSHgWNQ+WnhEC8UahKW1JQ6fXMwGXS+mJuTtceF4e4rlPXJ+47pufbDSyWo469xG1i0Mv7eWnlqFIekwfG/YWqXLCaL47ti6uA12fQRrBSjaljJUlpTv4XhUGfR3utwcvnblyCVoKq3Gb6vuNabKtMPx6IZQGsZyBYyLyxs6Ky2IjcJDAr94gaf/EJd+6O+yooHmYDBP6SXWlz+Y6Eo8ZNOiNvFYN58eew3S+ypj1IpJseF6RuXrV18//fgh52rPJ5CbGEoDQuEtVeXunSmWcY3e+hJIcGmO4CpNX1GOc='
