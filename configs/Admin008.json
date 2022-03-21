@@ -26,7 +26,7 @@
   "screenRecordingUserDataFilter" : null,
   "isCallListeningEnabled" : null,
   "callListenHost" : "\"127.0.0.1\"",
-  "callListenPort" : "28008",
+  "callListenPort" : "deneme",
   "callListeningGatewayList" : "[\"192.168.123.122\", \"192.168.123.123\"]",
   "callListeningNoCtiPhoneList" : null,
   "isResourceListeningEnabled" : "false",
