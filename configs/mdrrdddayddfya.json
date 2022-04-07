@@ -1,5 +1,5 @@
 {
-  "managedCapturerClusterId" : "\"Cluster001selam\"",
+  "managedCapturerClusterId" : "\"Cluster001slam\"",
   "dbConnectionInfo" : "\"Data Source =10.10.10.10; Initial Catalog =SISDBASE;User Id=sa; Password=password\"",
   "dbConnectionInfoResourceMeta" : null,
   "voiceAdminHost" : "\"127.0.0.1\"",
