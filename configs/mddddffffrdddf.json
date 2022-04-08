@@ -1,138 +1,50 @@
 {
-  "config" : {
-    "singleString1" : {
-      "configValueType" : "STRING",
-      "configValueCount" : "SINGLE",
-      "encrypted" : false,
-      "valueAsJson" : "\"Test\""
-    },
-    "singleString2" : {
-      "configValueType" : "STRING",
-      "configValueCount" : "SINGLE",
-      "encrypted" : false,
-      "valueAsJson" : "\"Test123456789\""
-    },
-    "singleString3" : {
-      "configValueType" : "STRING",
-      "configValueCount" : "SINGLE",
-      "encrypted" : false,
-      "valueAsJson" : "\"Test123456789\""
-    },
-    "singleLong1" : {
-      "configValueType" : "LONG",
-      "configValueCount" : "SINGLE",
-      "encrypted" : false,
-      "valueAsJson" : "25"
-    },
-    "singleLong2" : {
-      "configValueType" : "LONG",
-      "configValueCount" : "SINGLE",
-      "encrypted" : false,
-      "valueAsJson" : "15"
-    },
-    "singleBoolean1" : {
-      "configValueType" : "BOOLEAN",
-      "configValueCount" : "SINGLE",
-      "encrypted" : false,
-      "valueAsJson" : "true"
-    },
-    "singleBoolean2" : {
-      "configValueType" : "BOOLEAN",
-      "configValueCount" : "SINGLE",
-      "encrypted" : false,
-      "valueAsJson" : "false"
-    },
-    "listString1" : {
-      "configValueType" : "STRING",
-      "configValueCount" : "LIST",
-      "encrypted" : false,
-      "valueAsJson" : "[\"Deneme\", \"Deneme2\"]"
-    },
-    "listString2" : {
-      "configValueType" : "STRING",
-      "configValueCount" : "LIST",
-      "encrypted" : false,
-      "valueAsJson" : "[\"Deneme\", \"Deneme2\", \"Deneme2\", \"Den\"]"
-    },
-    "listString3" : {
-      "configValueType" : "STRING",
-      "configValueCount" : "LIST",
-      "encrypted" : false,
-      "valueAsJson" : "[\"Deneme\", \"Deneme2\", \"Deneme2\", \"Den\"]"
-    },
-    "listBoolean1" : {
-      "configValueType" : "BOOLEAN",
-      "configValueCount" : "LIST",
-      "encrypted" : false,
-      "valueAsJson" : "[true, true, true, false]"
-    },
-    "listBoolean2" : {
-      "configValueType" : "BOOLEAN",
-      "configValueCount" : "LIST",
-      "encrypted" : false,
-      "valueAsJson" : "[true, true, true, false]"
-    }
-  },
-  "template" : {
-    "singleString1" : {
-      "configValueType" : "STRING",
-      "configValueCount" : "SINGLE",
-      "rule" : "'${singleString1}' != null and '${singleString1}' == 'Test'"
-    },
-    "singleString2" : {
-      "configValueType" : "STRING",
-      "configValueCount" : "SINGLE",
-      "rule" : "'${singleString2}' != null and '${singleString2}'.bytes.length > 5"
-    },
-    "singleString3" : {
-      "configValueType" : "STRING",
-      "configValueCount" : "SINGLE",
-      "rule" : "'${singleString3}' != null and '${singleString3}'.bytes.length < 5"
-    },
-    "singleLong1" : {
-      "configValueType" : "LONG",
-      "configValueCount" : "SINGLE",
-      "rule" : "${singleLong1} != null and ${singleLong1} > 20"
-    },
-    "singleLong2" : {
-      "configValueType" : "LONG",
-      "configValueCount" : "SINGLE",
-      "rule" : "${singleLong2} != null and ${singleLong2} > 20"
-    },
-    "singleBoolean1" : {
-      "configValueType" : "BOOLEAN",
-      "configValueCount" : "SINGLE",
-      "rule" : "${singleBoolean1} == true"
-    },
-    "singleBoolean2" : {
-      "configValueType" : "BOOLEAN",
-      "configValueCount" : "SINGLE",
-      "rule" : "${singleBoolean2} == true"
-    },
-    "listString1" : {
-      "configValueType" : "STRING",
-      "configValueCount" : "LIST",
-      "rule" : "${listString1}.length > 1"
-    },
-    "listString2" : {
-      "configValueType" : "STRING",
-      "configValueCount" : "LIST",
-      "rule" : "${listString2}.?[#this.bytes.length > 2].length > ${listString2}.length"
-    },
-    "listString3" : {
-      "configValueType" : "STRING",
-      "configValueCount" : "LIST",
-      "rule" : "${listString3}.?[#this.bytes.length > 6].length > ${listString3}.length"
-    },
-    "listBoolean1" : {
-      "configValueType" : "BOOLEAN",
-      "configValueCount" : "LIST",
-      "rule" : "${listBoolean1}.?[#this eq true].length > 2"
-    },
-    "listBoolean2" : {
-      "configValueType" : "BOOLEAN",
-      "configValueCount" : "LIST",
-      "rule" : "${listBoolean2}.?[#this eq false].length > 2"
-    }
-  }
+  "managedCapturerClusterId" : "\"Cluster001slam\"",
+  "dbConnectionInfo" : "\"Data Source =10.10.10.10; Initial Catalog =SISDBASE;User Id=sa; Password=password\"",
+  "dbConnectionInfoResourceMeta" : null,
+  "voiceAdminHost" : "\"127.0.0.1\"",
+  "voiceAdminPort" : "28015",
+  "voiceAdminBaseUri" : "/",
+  "maxRestCallDurationInMinutes" : "",
+  "restAccessToken" : null,
+  "doNotPassivateDevices" : null,
+  "isRestartProcessManagement" : "false",
+  "isAgentEventContextEnabled" : "false",
+  "isCallEventLogEnabled" : "false",
+  "isSynchAgentStateEnabled" : "false",
+  "maxProcessQueueSize" : "1000",
+  "maxProcessThreadCount" : "100",
+  "maxExecutionActorCount" : "10",
+  "maxExecutionQueueSizePerActor" : "25",
+  "maxExecutionThreadCountPerActor" : "40",
+  "maxAllowedSignalingCtiDifferenceInSeconds" : "2",
+  "preferCapturerCallIdForCtiLookup" : "false",
+  "maxAllowedCallTimeDifferenceInSeconds" : "99999999",
+  "isMessageEndLineDelimeted" : "false",
+  "completedCallProcessDeletePeriodInMinutes" : "1440",
+  "isScreenRecordingEnabled" : "false",
+  "screenRecordingUserDataFilter" : null,
+  "isCallListeningEnabled" : null,
+  "callListenHost" : "\"127.0.0.1\"",
+  "callListenPort" : "deneme",
+  "callListeningGatewayList" : "[\"192.168.123.122\", \"192.168.123.123\"]",
+  "callListeningNoCtiPhoneList" : null,
+  "isResourceListeningEnabled" : "false",
+  "resourceListenHost" : null,
+  "resourceListenPort" : "28002",
+  "resourceListenBaseUri" : "\"/SisBackupServer/BackupService/\"",
+  "isWebServerEnabled" : "true",
+  "webServerScheme" : "http",
+  "webServerHost" : null,
+  "webServerPort" : "28005",
+  "webServerBaseUri" : "\"/voiceserver/\"",
+  "ctiServerHost" : "\"127.0.0.1\"",
+  "ctiServerPort" : "\"3110\"",
+  "isCTICheckEnabled" : "true",
+  "isCTIRtpCheckEnabled" : null,
+  "maxAllowedCtiOfflineLookupTimeDeltaInSeconds" : "2",
+  "mediaAttachmentTarget" : "\"alcatel\"",
+  "maxConversationDurationInMinutes" : "360",
+  "maxCallCountInConversation" : "20",
+  "minRemoveExpiredCallPartyContextInHours" : "24"
 }
