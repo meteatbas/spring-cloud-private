@@ -9,5 +9,16 @@
     "encrypted" : false,
     "rule" : null,
     "restartRequired" : null
+  },
+  "Rec113" : {
+    "configValueCount" : "SINGLE",
+    "configValueType" : "STRING",
+    "displayName" : "Recorder3",
+    "defaultValueAsJson" : null,
+    "description" : "Recorder Template3",
+    "sectionName" : "Section Name3",
+    "encrypted" : false,
+    "rule" : null,
+    "restartRequired" : null
   }
 }
