@@ -1,0 +1,13 @@
+{
+  "instanceId" : {
+    "configValueCount" : "SINGLE",
+    "configValueType" : "STRING",
+    "displayName" : "dd",
+    "defaultValueAsJson" : null,
+    "description" : "The name of the instance. Should be unique per installation",
+    "sectionName" : "General",
+    "encrypted" : false,
+    "rule" : "${instanceId} != null",
+    "restartRequired" : null
+  }
+}
