@@ -1,6 +1,6 @@
 {
   "instanceId" : {
-    "configValueCount" : "LIST",
+    "configValueCount" : "SINGLE",
     "configValueType" : "BOOLEAN",
     "displayName" : "dd",
     "defaultValueAsJson" : null,
