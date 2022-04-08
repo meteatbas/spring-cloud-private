@@ -1,13 +1,13 @@
 {
-  "instanceId" : {
+  "Rec112" : {
     "configValueCount" : "SINGLE",
     "configValueType" : "STRING",
-    "displayName" : "dd",
+    "displayName" : "Recorder2",
     "defaultValueAsJson" : null,
-    "description" : "The name of the instance. Should be unique per installation",
-    "sectionName" : "General",
+    "description" : "Recorder Template2",
+    "sectionName" : "Section Name2",
     "encrypted" : false,
-    "rule" : "${instanceId} != null",
+    "rule" : null,
     "restartRequired" : null
   }
 }
