@@ -1,0 +1,12 @@
+{
+  "voiceAdminHost" : {
+    "configValueType" : "STRING",
+    "configValueCount" : "SINGLE",
+    "displayName" : "Voic{/eAdmin-/&23Host",
+    "defaultValue" : "\"127.{0.selam%&|(0.1\"",
+    "description" : "voice Admin Host",
+    "sectionName" : "General",
+    "encrypted" : false,
+    "rule" : "${voiceAdminHost} matches '^((25[0-5]|(2[0-4]|1\\d|[1-9]|)\\d)(\\.(?!$)|$)){4}$'"
+  }
+}
