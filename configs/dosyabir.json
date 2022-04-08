@@ -1,0 +1,12 @@
+{
+  "longListTrue" : {
+    "configValueType" : "LONG",
+    "configValueCount" : "LIST",
+    "displayName" : "Call Listen Port",
+    "defaultValueAsJson" : null,
+    "description" : "callListeningGatewayList skip CTI Lookup and Extension Lookup for IP List",
+    "sectionName" : "CallListening",
+    "encrypted" : false,
+    "rule" : "${longListTrue}.?[#this > 20].size() eq ${longListTrue}.size()"
+  }
+}
