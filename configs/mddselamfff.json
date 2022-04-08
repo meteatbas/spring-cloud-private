@@ -1,0 +1,122 @@
+{
+  "stringListTrue" : {
+    "configValueType" : "STRING",
+    "configValueCount" : "LIST",
+    "displayName" : "Call Listen Port",
+    "defaultValueAsJson" : null,
+    "description" : "callListeningGatewayList skip CTI Lookup and Extension Lookup for IP List",
+    "sectionName" : "CallListening",
+    "encrypted" : false,
+    "rule" : "${stringListTrue}.?[#this matches '^((25[0-5]|(2[0-4]|1\\d|[1-9]|)\\d)(\\.(?!$)|$)){4}$'].size() eq ${stringListTrue}.size()"
+  },
+  "stringListFalse" : {
+    "configValueType" : "STRING",
+    "configValueCount" : "LIST",
+    "displayName" : "Call Listen Port",
+    "defaultValueAsJson" : null,
+    "description" : "callListeningGatewayList skip CTI Lookup and Extension Lookup for IP List",
+    "sectionName" : "CallListening",
+    "encrypted" : false,
+    "rule" : "${stringListFalse}.?[#this matches '^((25[0-5]|(2[0-4]|1\\d|[1-9]|)\\d)(\\.(?!$)|$)){4}$'].size() eq ${stringListFalse}.size()"
+  },
+  "stringListTypeFalse" : {
+    "configValueType" : "STRING",
+    "configValueCount" : "LIST",
+    "displayName" : "Call Listen Port",
+    "defaultValueAsJson" : null,
+    "description" : "callListeningGatewayList skip CTI Lookup and Extension Lookup for IP List",
+    "sectionName" : "CallListening",
+    "encrypted" : false,
+    "rule" : "${stringListTypeFalse}.?[#this matches '^((25[0-5]|(2[0-4]|1\\d|[1-9]|)\\d)(\\.(?!$)|$)){4}$'].size() eq ${stringListTypeFalse}.size()"
+  },
+  "longListTrue" : {
+    "configValueType" : "LONG",
+    "configValueCount" : "LIST",
+    "displayName" : "Call Listen Port",
+    "defaultValueAsJson" : null,
+    "description" : "callListeningGatewayList skip CTI Lookup and Extension Lookup for IP List",
+    "sectionName" : "CallListening",
+    "encrypted" : false,
+    "rule" : "${longListTrue}.?[#this > 20].size() eq ${longListTrue}.size()"
+  },
+  "longListFalse" : {
+    "configValueType" : "LONG",
+    "configValueCount" : "LIST",
+    "displayName" : "Call Listen Port",
+    "defaultValueAsJson" : null,
+    "description" : "callListeningGatewayList skip CTI Lookup and Extension Lookup for IP List",
+    "sectionName" : "CallListening",
+    "encrypted" : false,
+    "rule" : "${longListFalse}.?[#this > 20].size() eq ${longListFalse}.size()"
+  },
+  "longListTypeFalse" : {
+    "configValueType" : "LONG",
+    "configValueCount" : "LIST",
+    "displayName" : "Call Listen Port",
+    "defaultValueAsJson" : null,
+    "description" : "callListeningGatewayList skip CTI Lookup and Extension Lookup for IP List",
+    "sectionName" : "CallListening",
+    "encrypted" : false,
+    "rule" : "${longListTypeFalse}.?[#this > 20].size() eq ${longListTypeFalse}.size()"
+  },
+  "doubleListTrue" : {
+    "configValueType" : "DOUBLE",
+    "configValueCount" : "LIST",
+    "displayName" : "Call Listen Port",
+    "defaultValueAsJson" : null,
+    "description" : "callListeningGatewayList skip CTI Lookup and Extension Lookup for IP List",
+    "sectionName" : "CallListening",
+    "encrypted" : false,
+    "rule" : "${doubleListTrue}.?[#this > 1.5].size() eq ${doubleListTrue}.size()"
+  },
+  "doubleListFalse" : {
+    "configValueType" : "DOUBLE",
+    "configValueCount" : "LIST",
+    "displayName" : "Call Listen Port",
+    "defaultValueAsJson" : null,
+    "description" : "callListeningGatewayList skip CTI Lookup and Extension Lookup for IP List",
+    "sectionName" : "CallListening",
+    "encrypted" : false,
+    "rule" : "${doubleListFalse}.?[#this > 1.5].size() eq ${doubleListFalse}.size()"
+  },
+  "doubleListTypeFalse" : {
+    "configValueType" : "DOUBLE",
+    "configValueCount" : "LIST",
+    "displayName" : "Call Listen Port",
+    "defaultValueAsJson" : null,
+    "description" : "callListeningGatewayList skip CTI Lookup and Extension Lookup for IP List",
+    "sectionName" : "CallListening",
+    "encrypted" : false,
+    "rule" : "${doubleListTypeFalse}.?[#this > 1.5].size() eq ${doubleListTypeFalse}.size()"
+  },
+  "booleanListTrue" : {
+    "configValueType" : "BOOLEAN",
+    "configValueCount" : "LIST",
+    "displayName" : "Call Listen Port",
+    "defaultValueAsJson" : null,
+    "description" : "callListeningGatewayList skip CTI Lookup and Extension Lookup for IP List",
+    "sectionName" : "CallListening",
+    "encrypted" : false,
+    "rule" : "${booleanListTrue}.?[#this eq true].size() eq ${booleanListTrue}.size()"
+  },
+  "booleanListFalse" : {
+    "configValueType" : "BOOLEAN",
+    "configValueCount" : "LIST",
+    "displayName" : "Call Listen Port",
+    "defaultValueAsJson" : null,
+    "description" : "callListeningGatewayList skip CTI Lookup and Extension Lookup for IP List",
+    "sectionName" : "CallListening",
+    "encrypted" : false,
+    "rule" : "${booleanListFalse}.?[#this eq true].size() eq ${booleanListFalse}.size()"
+  },
+  "booleanListTypeFalse" : {
+    "configValueType" : "BOOLEAN",
+    "configValueCount" : "LIST",
+    "displayName" : "Call Listen Port",
+    "defaultValueAsJson" : null,
+    "description" : "callListeningGatewayList skip CTI Lookup and Extension Lookup for IP List",
+    "sectionName" : "CallListening",
+    "encrypted" : false,
+    "rule" : "${booleanListTypeFalse}.?[#this eq true].size() eq ${booleanListTypeFalse}.size()"
+  }
+}
